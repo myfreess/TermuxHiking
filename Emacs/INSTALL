@@ -1,0 +1,11 @@
+mkdir -p ~/.emacs.d/scheme
+mkdir -p ~/.emacs.d/Evil
+
+curl http://mumble.net/~campbell/emacs/paredit.el -o ~/.emacs.d/scheme/paredit.el
+git clone https://github.com/emacs-evil/evil ~/.emacs.d/EVIL/evil
+git clone http://www.dr-qubit.org/git/undo-tree.git ~/.emacs.d/EVIL/undo-tree
+git clone https://github.com/emacs-evil/goto-chg.git ~/.emacs.d/EVIL/goto-chg
+
+
+
+cat Main.el > ~/.emacs

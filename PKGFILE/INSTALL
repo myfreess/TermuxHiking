@@ -1,0 +1,44 @@
+
+
+
+---------------------------------
+TERMUX
+---------------------------------
+
+mkdir -p ~/workdir
+cp term/* ~/termux
+---------------------------------
+git
+---------------------------------
+
+cp Git.sh ~/workdir/Git.sh
+
+
+---------------------------------
+FISH
+---------------------------------
+
+mkdir -p ~/.config/fish/functions
+
+cat prompt.fish > ~/.config/fish/functions/fish_prompt.fish
+
+cat config.fish > ~/.config/fish/config.fish
+
+---------------------------------
+BASH
+---------------------------------
+
+cat workenv.sh > ~/.bashrc
+
+---------------------------------
+Micro
+---------------------------------
+
+ln -fs /data/data/com.termux/files/usr/bin/micro /data/data/com.termux/files/usr/bin/io
+
+---------------------------------
+Guile
+---------------------------------
+
+cat guilerc.scm > ~/.guile
+

@@ -1,0 +1,13 @@
+
+DEBPKG=(util-linux gbt bash-completion emacs python sed gawk lighttpd coreutils git curl)
+
+
+pkg i ${DEBPKG[@]} -y
+
+
+git clone https://github.com/cocopon/iceberg.vim.git ~/.vim/ice
+
+
+
+
+

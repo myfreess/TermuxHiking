@@ -1,0 +1,8 @@
+set title "Function"
+set xlabel "x"
+set ylabel "y"
+set xrange [-pi:pi]
+set terminal png
+set output "output.png"
+set grid
+plot sin(x)

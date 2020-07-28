@@ -1,0 +1,1 @@
+cat Main.el > ~/.emacs
